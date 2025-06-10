@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;  /* Center the content horizontally */
+  align-items: flex-start;  /* Align content at the top */
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+}
+
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;         
+  padding: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+.exercise-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.exercise-card {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.exercise-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.exercise-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+.exercise-title {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.muscle-group {
+  color: gray;
+  font-size: 0.9rem;
+}
+
